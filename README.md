@@ -1,18 +1,22 @@
 # SortableDraggablePage
 
-Sortable Draggable Page
-Project Description: This project implements a dynamic user interface utilizing the jQuery UI library's sortable feature. The interface includes functionalities such as adding rows, visually deleting empty rows, and dragging and dropping items from a menu to a row. Rows can be rearranged among themselves.
+## Project Description: 
+This project implements a dynamic user interface utilizing the jQuery UI library's sortable feature. The interface includes functionalities such as adding rows, visually deleting empty rows, and dragging and dropping items from a menu to a row. Rows can be rearranged among themselves.
 
-Features
-Sortable Rows: Utilizes the sortable feature from the jQuery UI library to allow the dynamic rearrangement of rows.
+## Features
+### Sortable Rows: 
+Utilizes the sortable feature from the jQuery UI library to allow the dynamic rearrangement of rows.
 
-Animated Row Addition: Adds a new row to the left menu with a smooth animation, making it visually appealing.
+#### Animated Row Addition: 
+Adds a new row to the left menu with a smooth animation, making it visually appealing.
 
-Resizable Rows: Enables resizing of rows by dragging the south handle.
+### Resizable Rows: 
+Enables resizing of rows by dragging the south handle.
 
-Efficient Empty Row Deletion: Deletes rows with a visually pleasing effect only if they are empty. Otherwise, it displays an error alert.
+### Efficient Empty Row Deletion: 
+Deletes rows with a visually pleasing effect only if they are empty. Otherwise, it displays an error alert.
 
-Code Snippet
+```javascript Code Snippet
 Here is an example code snippet illustrating the animated deletion of a row:
 
 javascript
