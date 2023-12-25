@@ -16,29 +16,35 @@ Enables resizing of rows by dragging the south handle.
 ### Efficient Empty Row Deletion: 
 Deletes rows with a visually pleasing effect only if they are empty. Otherwise, it displays an error alert.
 
-```javascript Code Snippet
-Here is an example code snippet illustrating the animated deletion of a row:
+## How to Delete a Row
+To delete an empty row, click the "Delete Row" button (#btn_satir_sil). If no empty rows are found, an error alert will be displayed.
 
-javascript
-Copy code
-function satiri_sil_efektli(element, target, duration, callback) {
-// Implementation details for animated row deletion
-// ...
-}
-Usage
+## Usage
 Clone the repository.
 Open the index.html file in a web browser.
 Explore the interactive user interface.
 How to Add a Row
 To add a row to the left menu, click the "Add Row" button (#btn_satir_ekle). The new row will appear with a smooth animation.
 
-How to Delete a Row
-To delete an empty row, click the "Delete Row" button (#btn_satir_sil). If no empty rows are found, an error alert will be displayed.
 
-Dependencies
-jQuery
-jQuery UI
-SweetAlert2
-Acknowledgments
+## Dependencies
+- jQuery
+- jQuery UI
+- SweetAlert2
+
+## Acknowledgments
 Special thanks to the contributors and maintainers of the jQuery UI library for providing the powerful features used in this project.
-Feel free to customize and enhance the project as needed. Happy coding!
+
+# Feel free to customize and enhance the project as needed. Happy coding!
+
+
+### Here is an example code snippet illustrating the animated deletion of a row:
+
+```javascript
+function satiri_sil_efektli(element, target, duration, callback) {
+// Implementation details for animated row deletion
+// ...
+}
+
+ 
+
