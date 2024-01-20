@@ -35,16 +35,9 @@ To add a row to the left menu, click the "Add Row" button (#btn_satir_ekle). The
 ## Acknowledgments
 Special thanks to the contributors and maintainers of the jQuery UI library for providing the powerful features used in this project.
 
-# Feel free to customize and enhance the project as needed. Happy coding!
+# Happy coding!
 
 
-### Here is an example code snippet illustrating the animated deletion of a row:
-
-```javascript
-function satiri_sil_efektli(element, target, duration, callback) {
-// Implementation details for animated row deletion
-// ...
-}
 
  
 
